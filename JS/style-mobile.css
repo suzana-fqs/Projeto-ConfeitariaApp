@@ -40,7 +40,7 @@ section{
 div{
     text-align: center;
     align-items: center;
-    
+    width: 70%;
     position: absolute;
     left: 50%;
     top: 50%;
@@ -57,7 +57,7 @@ h1{
     text-shadow: 1px 1px #000000 ;
     padding: 5px 0 20px ;
 }
-
+    
 button{
     background-color: #FFD243 ;
     border: none;
@@ -77,3 +77,26 @@ button:hover{
     transform: scale(102%);
     letter-spacing: 4.5px;
 }
+
+img.login{
+   display: block;
+    width: 20px;
+    background-color: #4362ff;
+    padding: 12px;
+    border-radius: 100%;
+}
+
+#isenha, #inome {
+
+    background-color: #50ff43 ;
+    border: none;
+    padding: 12px 012px;
+    text-align: center;
+    margin: -60px 0 20px;
+    width: 100%;
+    
+    font-weight: 100;
+    font-size: 1em;
+    box-sizing: border-box;
+}
+       
