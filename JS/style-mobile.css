@@ -78,25 +78,37 @@ button:hover{
     letter-spacing: 4.5px;
 }
 
-img.login{
-   display: block;
-    width: 20px;
-    background-color: #4362ff;
-    padding: 12px;
-    border-radius: 100%;
+form{
+    margin-top: 320px;
 }
 
-#isenha, #inome {
-
-    background-color: #50ff43 ;
-    border: none;
-    padding: 12px 012px;
-    text-align: center;
-    margin: -60px 0 20px;
-    width: 100%;
+p.formulario{
+    display: flex;
+    margin: 15px 0;
+    background-color: #FFD243;
+    padding: 0;
+    border-radius: 60px 0px 0 60px;
     
-    font-weight: 100;
-    font-size: 1em;
-    box-sizing: border-box;
+    
 }
-       
+
+img.login{
+    background-color: #ED6294;
+    width: 8%;
+    padding: 15px;
+    border: none;
+    
+    
+    padding: 10px;
+    
+}
+
+#inome, #isenha{
+    background-color: #290d9a00;
+    width: 95%;
+    border: none;
+    padding: 0 30px;
+    text-align: center;
+    border: solid 2px #ED6294;
+}
+
