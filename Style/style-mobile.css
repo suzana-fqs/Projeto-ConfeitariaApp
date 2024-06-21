@@ -79,6 +79,7 @@ button:hover{
 }
 
 form{
+    display: none;
     margin-top: 320px;
 }
 
