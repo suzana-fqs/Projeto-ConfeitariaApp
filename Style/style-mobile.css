@@ -90,7 +90,7 @@ margin-top: 40px;
 display: none;
 }
 
-p.formulario{
+p.formulario {
     display: flex;
     margin: 15px 0 15px 0;
     background-color: #FFD243;
@@ -126,7 +126,6 @@ img.login{
     background-size: 115%;
     height: 100vh;
     background-position: center top;
-
 }
 
 header{
@@ -135,8 +134,15 @@ header{
     padding: 0px 25%;
     align-items: center;
     height: 10%;
-    
 }
+
+h1#tituloheader{
+    align-items: center;
+    margin:20px 0 0 20px;
+    font-size: 2em;
+    color: #ED6294;
+}
+
 
 img#logoheader{
   width: auto;
@@ -144,10 +150,12 @@ img#logoheader{
 
 } 
 
-h1#tituloheader{
-    align-items: center;
-    margin:20px 0 0 20px;
-    font-size: 2em;
-    color: #ED6294;
-   
+input.formulario{
+    background-color: #FFD243;
+    width: 100%;
+    padding: 12px;
+    margin: 15px 0 15px 0;
+    border: none;
+    text-align: center;
 }
+
