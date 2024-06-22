@@ -131,6 +131,10 @@ img.login{
     background-position: center center;
 }
 
+button#finalizarcadastro{
+    background-color: #34abd6;
+}
+
 header{
     background-color: #ffffff;
     display: flex;
@@ -175,9 +179,6 @@ input.formulario{
     margin: auto;
 }
 
-button#finalizarcadastro{
-    background-color: #34abd6;
 
-}
 
 
