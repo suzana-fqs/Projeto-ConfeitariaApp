@@ -9,24 +9,34 @@
 </head>
 <body id="bcadastro">
 
-    <header>
-        <img id="logoheader" src="/Imagens/Bolo fatia custo de produção.png" alt="">
-        <h1 id="tituloheader">Doce Lucro</h1>
-    </header>
-    <section>    
-        <div>
-            <h2> Preencha os dados cadastrais:</h2>
-            <form action="/Banco de dados/cadastro.php">
-                <input class="formulario" type="text" placeholder="Nome completo"> <br>
-                <input class="formulario" type="tel" placeholder="Telefone"> <br>
-                <input class="formulario" type="email" placeholder="e-mail"> <br>
-                <label for="nivelcook">Há quanto tempo trabalha na confeiraria?</label> <br> 
-                <select name="nivelcook" id="nivelcook">
-                    <option value="iniciante">Iniciante </option>
-                    <option value="Aventureiro">Menos de 1 ano</option>
-                    <option value="Experiente">Menos de 2 anos</option>
-                    <option value="Mestre">Mais de 2 anos</option>
-                </select>
+
+    <section>   
+        
+        <header>
+            <img id="logoheader" src="/Imagens/Bolo fatia custo de produção.png" alt="">
+            <h1 id="tituloheader">Doce Lucro</h1>
+        </header>
+
+        <div id="cadastrodiv">
+            <p class="destaquecadastro"> Preencha os dados cadastrais:</h2>
+
+            <form action="" method="post" autocomplete="on">
+
+                <input name="nome" class="formulario" type="text" placeholder="Nome completo" required> <br>
+                
+                <input name="" class="formulario" type="tel" placeholder="Telefone" required> <br>
+
+                <input name="" class="formulario" type="email" placeholder="e-mail" required> <br>
+
+                <p class="destaquecadastro"> Crie seu usuário e senha:</p>
+
+                <input name="usuario" class="formulario" type="text" placeholder="Usuário" required maxlength="15" minlength="6"> <br>
+                    
+                <input name="" class="formulario" type="password" placeholder="8 dígitos: Minúsculas, Maiúsculas, Números e Símbolos" required maxlength="8" minlength="8"> 
+               
+                               
+                <button id="finalizarcadastro">Finalizar</button>
+             
             </form>
         </div> 
       

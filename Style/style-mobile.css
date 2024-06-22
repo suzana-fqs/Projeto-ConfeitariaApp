@@ -32,19 +32,20 @@ body{
 section{
     margin: auto;
     text-align: center;
-    background-color: rgba(255, 255, 255, 0.632);
+    background-color: rgba(255, 255, 255, 0.682);
     height: 100vh;
     width: 100vw;
+  
 }
 
 div{
     text-align: center;
     align-items: center;
-    width: 70%;
+    padding: 0 25%px;
+    width: 80%;
     position: absolute;
     left: 50%;
     top: 50%;
-
     transform: translate(-50%, -50%); 
 }
 
@@ -54,14 +55,21 @@ h1{
     font-size: 3.5em;
     font-weight: 100;
     color:  #34abd6;
-    text-shadow: 1px 1px #000000 ;
-    padding: 5px 0 20px ;
+    text-shadow: 1px 1px #000000;
+    padding: 5px 0 20px;
+}
+
+h2{
+    font-size: 1.9em;
+    font-weight: 500;
+    color:  #000000;
+    padding: 5px 0 5px;
 }
     
 button, a{
-    background-color: #FFD243 ;
+    background-color: #FFD243;
     border: none;
-    padding: 12px 80px  ;
+    padding: 12px 80px;
     margin: 20px 0 4px 0;
     width: 100%;
     font-weight: bolder;
@@ -96,8 +104,6 @@ p.formulario {
     background-color: #FFD243;
     padding: 0;
     border-radius: 60px 0px 0 60px;
-    
-    
 }
 
 img.login{
@@ -105,10 +111,7 @@ img.login{
     width: 8%;
     padding: 15px;
     border: none;
-    
-    
     padding: 10px;
-    
 }
 
 #inome, #isenha{
@@ -123,9 +126,9 @@ img.login{
 /*  Página Cadastro */
 
 #bcadastro{
-    background-size: 115%;
-    height: 100vh;
-    background-position: center top;
+    background-size: 120%;
+    background-size: cover;
+    background-position: center center;
 }
 
 header{
@@ -143,19 +146,38 @@ h1#tituloheader{
     color: #ED6294;
 }
 
+p.destaquecadastro{
+    font-size: 1.5em;
+    padding: 20px 0 5px 0;
+    text-shadow: 1px 1px 15px  #ffffff;
+}
+
 
 img#logoheader{
   width: auto;
   height: 45px;
+} 
 
+
+
+form{
+    margin: 0;
+    padding: 0; 
 } 
 
 input.formulario{
-    background-color: #FFD243;
+    background-color: #ffd343;
     width: 100%;
-    padding: 12px;
-    margin: 15px 0 15px 0;
-    border: none;
+    padding: 12px 0;
+    border: solid 2px #ED6294;
     text-align: center;
+    display: flex;
+    margin: auto;
 }
+
+button#finalizarcadastro{
+    background-color: #34abd6;
+
+}
+
 
