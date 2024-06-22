@@ -58,11 +58,11 @@ h1{
     padding: 5px 0 20px ;
 }
     
-button{
+button, a{
     background-color: #FFD243 ;
     border: none;
     padding: 12px 80px  ;
-    margin: 10px 0;
+    margin: 20px 0 4px 0;
     width: 100%;
     font-weight: bolder;
     font-size: 1em;
@@ -71,21 +71,22 @@ button{
     box-sizing: border-box;
 }
 
-button:hover{
+button:hover, a:hover{
     background-color: #ED6294;
     transition: .5s;
     transform: scale(102%);
     letter-spacing: 4.5px;
 }
 
-form{
-    display: none;
-    margin-top: 320px;
+
+#iform{
+margin-top: 40px;
+display: none;
 }
 
 p.formulario{
     display: flex;
-    margin: 15px 0;
+    margin: 15px 0 15px 0;
     background-color: #FFD243;
     padding: 0;
     border-radius: 60px 0px 0 60px;
