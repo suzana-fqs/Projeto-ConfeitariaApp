@@ -65,6 +65,15 @@ h2{
     color:  #000000;
     padding: 5px 0 5px;
 }
+
+.letraspequenas, .letraspequenas:hover {
+    background-color: rgba(0, 0, 139, 0);
+    color: #ED6294;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: .8em;
+    margin-top: -10px;
+}
     
 button, a{
     background-color: #FFD243;
@@ -92,6 +101,9 @@ button:hover, a:hover{
     letter-spacing: 4.5px;
 }
 
+.Logohome, .Logohome:hover{
+    background-color: #34abd600;
+}
 
 #iform{
 margin-top: 40px;
@@ -179,6 +191,15 @@ input.formulario{
     margin: auto;
 }
 
+
+/* Tela de  RECUPERAÇÂO DE SENHA*/
+div#recuperarsenha{
+    background-color: #ffffff8c;
+    padding: 30px 20px 50px 20px;
+    box-shadow: 0px 0px 10px   #0000008e;
+    
+    
+}
 
 
 

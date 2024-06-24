@@ -10,31 +10,33 @@
 </head>
 <body>
     <section>        
-       <div id="iprinc">
-            <img id="logomarca" src="Imagens/Bolo fatia custo de produção.png" alt="">
+       
+       <div id="iprinc" >  <!-- TELA PRINCIPAL -->
+            <a class="Logohome" href="index.html"><img id="logomarca" src="Imagens/Bolo fatia custo de produção.png" alt=""></a>
         <h1>Doce Lucro</h1>
             <button onclick="exibirOcultarLogin()">Entrar</button>
              <a href="cadastro.html">Cadastrar</a>
         </div>
 
-        <div id="iform">
-            <img id="logomarca" src="Imagens/Bolo fatia custo de produção.png" alt="">
+        <div id="iform"> <!-- INSERIR Nome e senha -->
+            <a class="Logohome" href="index.html"><img id="logomarca" src="Imagens/Bolo fatia custo de produção.png" alt=""></a>
         <h1>Doce Lucro</h1>
             <form action="cadastro.php" autocomplete="on" method="post">
                 
                 <p class="formulario">
                     <img class="login" src="Imagens/chapeu-de-cozinheiro.png" alt="usuario-confeiteira">
-                    <input name="formlogin" id="inome" type="text" placeholder="Insira seu nome ou telefone" required>
-                    
+                    <input name="formlogin" id="inome" type="text" placeholder="Insira seu usuário ou telefone" required>
                 </p>
 
                 <p class="formulario">
                     <img class="login" src="Imagens/Senha confeiteira.png" alt="senha-confeiteira">
-                    <input name="formlogin" id="isenha" type="tex" placeholder="Insira sua senha" required>
-                </p>
-                
+                    <input name="formlogin" id="isenha" type="password" maxlength="8" minlength="8" placeholder="Insira sua senha" required>
+                </p>    
+                                             
                 <button>Continuar</button>
 
+                <a class="letraspequenas" href="recuperarsenha.html"> Esqueci senha</a> <!-- ESQUECI SENHA -->  
+                
             </form>
             
         </div>
