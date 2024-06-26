@@ -1,5 +1,7 @@
 @charset "utf-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
 
 
 *{
@@ -9,7 +11,7 @@
 }
 
 body{
-    background-color: rgba(127, 255, 212, 0);
+    background-color: #ED6294;
     background-image: url(/Imagens/Bolo\ custo\ para\ confeitaria.jpg);
     background-repeat: no-repeat;
     background-size: 130% ;
@@ -32,19 +34,43 @@ img#logoheader{
 section{
     margin: auto;
     text-align: center;
-    background-color: rgba(0, 0, 0, 0);
-    height: 90.5vh;
+    background-color: #f1f1f1ee;
+    height: 89vh;
 }
 
 
 div{
     text-align: center;
     align-items: center;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%); 
-    background-color: none;
+    
+}
+
+div.botoesdoCriar{
+  
+    display: flex;
+    width: 49%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+
+}
+
+h1{
+    
+    font-size: 1.3em;
+    font-weight: 100;
+    color:  #000000;
+    font-weight: 500;
+    margin-top: 15px;
+    width: 100%;
+    text-align: left;
+    
+}
+
+h1#tituloReceitasProdutos{
+    margin: 10px 0 10px 0;
 }
 
 .letraspequenas, .letraspequenas:hover {
@@ -58,76 +84,92 @@ div{
     
 
 
-form{
-   background-color: rgba(244, 244, 244, 0.819);
+form, span{
+   background-color: rgba(244, 244, 244, 0);
     margin: auto;
-    padding: 30px 10px;
+    padding: 10px 10px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    background-color: ;
     width: 80vw;
     justify-content: space-between;
-}
-
-::placeholder{
-        color: #34abd6;
+    margin-top: 12px;
 }
 
    
  input, select{
-    background-color: #ffffff7b;
-    padding: 10px 0;  
+    background-color: #ffffff24;
+    padding: 5px 0;  
     text-align: center;
     margin: 5px 0;
     display: block;
     width: 100%;
-    color: #ED6294;
     border: none;
-    border-bottom: solid 1px #ED6294;
+    border-bottom: solid 3px #ED6294;
     
 }
 
 input.por3, select.por3{
     width: 31%;
     display: flex;
-    color: #34abd6;
     
 }
 
-button#badicionar{
+button#badicionar, #blistaCompleta{
     background-color: #ED6294;
     display: inline-flex;
     align-items: center;
     justify-content: start;
-    padding: 10px 30px;
+    padding: 5px 30px;
     border: none;
-    border-radius: 5px;
     color: white;
-    font-size: 16px;
     cursor: pointer;
     text-decoration: none;
-    width: 100%;
-    font-size: 1.2em;
+    width: 49%;
+    font-size: 1em;
+    margin: 20px 0 0 0;
+}
+
+#blistaCompleta, #divListaCompleta{
+    background-color: #34abd6 ;
+    font-size: 1em;
+    color: white;
+}
+
+button#divCriar{
+    background-color: #ED6294;
+    color: white;
+    font-size: 1em;
 }
 
 
-
-button#badicionar:hover{
+button#badicionar:hover, #blistaCompleta:hover{
     background-color: #ffd343;
     color: #ED6294;
     font-weight: bold;
 }
 
 #imgbotaoadicionar{
-  width: 10%;
+  width: 8%;
   background-color: #ffd343;
-  padding: 15px;
+  padding: 8px;
   border-radius: 100%;
-  margin: 0 15px 0 0;
+  margin: 0 20px 0 0;
 
-    
+}
 
+
+img.imagemdestaque{
+    width: 35%;
+    margin: auto;
+}
+
+button.criarReceitaProduto{
+    background-color: #ffd343;
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0;
+    border: none;
 
 }
 

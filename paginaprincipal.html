@@ -16,7 +16,12 @@
 
         <section>
             <div >
+
+             
+
                 <form id="ipaginaprincipal" action="">
+<!--MATEIA PRIMA-->
+                    <h1>Cadastro de matéria-prima</h1>
 
                     <input type="text" placeholder="Matéria-prima" size="23" >
 
@@ -34,12 +39,62 @@
 
                      <input class="por3" type="text" placeholder="R$ x.xxx,xx" size="10">
 
-                    <button id="badicionar" ><img id="imgbotaoadicionar" src="/imagens/adicionar.png" alt="" >Adicionar a lista de materia prima </button>
+                    <button id="badicionar" ><img id="imgbotaoadicionar" src="/imagens/adicionar.png" alt="" >Cadastrar</button>  
 
-
-                    
+                    <button id="blistaCompleta" ><img id="imgbotaoadicionar" src="/imagens/adicionar.png" alt="" >Ver lista </button>  
                      
                 </form>
+
+                <!--CRIAR RECEITA
+                <form id="ipaginaprincipal" action="">
+
+                    <h1>Criar receitas</h1>
+
+                    <input type="text" placeholder="Matéria-prima" size="23" >
+
+                    <input class="por3" type="text" placeholder="Qtd" size="5" maxlength="5">
+
+                    <select class="por3" name="unidade" id="iunidade"   >
+            
+                        <option value="L"> Kg</option>
+                        <option value="kg">Lt</option>
+                        <option value="Un">Un</option>
+                        <option value="Cx">Cx</option>
+                     </select>
+
+                       
+
+                     <input class="por3" type="text" placeholder="R$ x.xxx,xx" size="10">
+
+                    <button id="badicionar" ><img id="imgbotaoadicionar" src="/imagens/adicionar.png" alt="" >Criar</button>  
+
+                    <button id="blistaCompleta" ><img id="imgbotaoadicionar" src="/imagens/adicionar.png" alt="" >Ver receitas </button>  
+                     
+                </form> -->
+
+                
+            
+                <span>
+                    <h1 id="tituloReceitasProdutos" >Receitas</h1>
+                    <img class="imagemdestaque" src="imagens/nova receita.png" alt="">
+                    <div class="botoesdoCriar">
+                        <button  id="divCriar" class="criarReceitaProduto" >Criar nova Receita</button>
+                        <button id="divListaCompleta"class="criarReceitaProduto" >Ver Receitas</button>
+                    </div>
+                </span>
+
+                <span>
+                    <h1 id="tituloReceitasProdutos" >Produtos</h1>
+                    <img class="imagemdestaque" src="imagens/criar produto.png" alt="">
+                    <div class="botoesdoCriar">
+                        <button  id="divCriar" class="criarReceitaProduto" >Criar novo produto</button>
+                        <button id="divListaCompleta"class="criarReceitaProduto" >Ver receitas</button>
+                    </div>
+                </span>
+
+               
+
+               
             </div>
         </section>
    
