@@ -1,0 +1,133 @@
+@charset "utf-8";
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body{
+    background-color: rgba(127, 255, 212, 0);
+    background-image: url(/Imagens/Bolo\ custo\ para\ confeitaria.jpg);
+    background-repeat: no-repeat;
+    background-size: 130% ;
+    background-position: top center;
+    
+}
+ 
+header{
+    height: 57px;
+    margin: auto;
+    padding: 5px; 
+    background-color: rgba(0, 0, 0, 0.916);    
+}
+
+img#logoheader{
+    width: 55px;   
+}
+
+
+section{
+    margin: auto;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0);
+    height: 90.5vh;
+}
+
+
+div{
+    text-align: center;
+    align-items: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%); 
+    background-color: none;
+}
+
+.letraspequenas, .letraspequenas:hover {
+    background-color: rgba(255, 255, 255, 0);
+    color: #ED6294;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: .8em;
+    margin-top: -10px;
+}
+    
+
+
+form{
+   background-color: rgba(244, 244, 244, 0.819);
+    margin: auto;
+    padding: 30px 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: ;
+    width: 80vw;
+    justify-content: space-between;
+}
+
+::placeholder{
+        color: #34abd6;
+}
+
+   
+ input, select{
+    background-color: #ffffff7b;
+    padding: 10px 0;  
+    text-align: center;
+    margin: 5px 0;
+    display: block;
+    width: 100%;
+    color: #ED6294;
+    border: none;
+    border-bottom: solid 1px #ED6294;
+    
+}
+
+input.por3, select.por3{
+    width: 31%;
+    display: flex;
+    color: #34abd6;
+    
+}
+
+button#badicionar{
+    background-color: #ED6294;
+    display: inline-flex;
+    align-items: center;
+    justify-content: start;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+    width: 100%;
+    font-size: 1.2em;
+}
+
+
+
+button#badicionar:hover{
+    background-color: #ffd343;
+    color: #ED6294;
+    font-weight: bold;
+}
+
+#imgbotaoadicionar{
+  width: 10%;
+  background-color: #ffd343;
+  padding: 15px;
+  border-radius: 100%;
+  margin: 0 15px 0 0;
+
+    
+
+
+}
+
