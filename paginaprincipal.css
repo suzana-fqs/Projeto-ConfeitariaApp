@@ -36,13 +36,14 @@ section{
     text-align: center;
     background-color: #f1f1f1ee;
     height: 89vh;
+    
 }
 
 
 div{
     text-align: center;
     align-items: center;
-    
+        
 }
 
 div.botoesdoCriar{
@@ -70,7 +71,7 @@ h1{
 }
 
 h1#tituloReceitasProdutos{
-    margin: 10px 0 10px 0;
+    margin: 25px 0 20px 0;
 }
 
 .letraspequenas, .letraspequenas:hover {
@@ -140,6 +141,14 @@ button#divCriar{
     background-color: #ED6294;
     color: white;
     font-size: 1em;
+    text-transform: capitalize;
+}
+
+button#divCriar:hover, button#divListaCompleta:hover {
+    background-color: #ffd343;
+    color: #ED6294;
+    font-weight: bold;
+
 }
 
 
@@ -148,6 +157,15 @@ button#badicionar:hover, #blistaCompleta:hover{
     color: #ED6294;
     font-weight: bold;
 }
+button.criarReceitaProduto{
+    background-color: #ffd343;
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0;
+    border: none;
+
+}
+
 
 #imgbotaoadicionar{
   width: 8%;
@@ -160,16 +178,9 @@ button#badicionar:hover, #blistaCompleta:hover{
 
 
 img.imagemdestaque{
-    width: 35%;
-    margin: auto;
+    width: 25%;
+    margin:
 }
 
-button.criarReceitaProduto{
-    background-color: #ffd343;
-    width: 100%;
-    padding: 8px;
-    margin: 8px 0;
-    border: none;
 
-}
 
