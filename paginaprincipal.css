@@ -16,7 +16,6 @@ body{
     background-repeat: no-repeat;
     background-size: 130% ;
     background-position: top center;
-    
 }
  
 header{
@@ -36,14 +35,12 @@ section{
     text-align: center;
     background-color: #f1f1f1ee;
     height: 89vh;
-    
 }
 
 
 div{
     text-align: center;
-    align-items: center;
-        
+    align-items: center;       
 }
 
 div.botoesdoCriar{
@@ -54,8 +51,6 @@ div.botoesdoCriar{
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
-    
-
 }
 
 h1{
@@ -67,14 +62,14 @@ h1{
     margin-top: 15px;
     width: 100%;
     text-align: left;
-    
 }
 
 h1#tituloReceitasProdutos{
     margin: 25px 0 20px 0;
 }
 
-.letraspequenas, .letraspequenas:hover {
+.letraspequenas,
+.letraspequenas:hover {
     background-color: rgba(255, 255, 255, 0);
     color: #ED6294;
     font-weight: bold;
@@ -107,16 +102,16 @@ form, span{
     width: 100%;
     border: none;
     border-bottom: solid 3px #ED6294;
-    
 }
 
 input.por3, select.por3{
     width: 31%;
     display: flex;
-    
 }
 
-button#badicionar, #blistaCompleta{
+button#badicionar,
+#blistaCompleta,
+button#badicionardaPrincipal{
     background-color: #ED6294;
     display: inline-flex;
     align-items: center;
@@ -131,7 +126,13 @@ button#badicionar, #blistaCompleta{
     margin: 20px 0 0 0;
 }
 
-#blistaCompleta, #divListaCompleta{
+button#badicionardaPrincipal{
+    width: 100%;
+    justify-content: center
+}
+
+#blistaCompleta,
+#divListaCompleta{
     background-color: #34abd6 ;
     font-size: 1em;
     color: white;
@@ -144,43 +145,80 @@ button#divCriar{
     text-transform: capitalize;
 }
 
-button#divCriar:hover, button#divListaCompleta:hover {
-    background-color: #ffd343;
-    color: #ED6294;
-    font-weight: bold;
-
-}
-
-
-button#badicionar:hover, #blistaCompleta:hover{
+button#divCriar:hover,
+button#divListaCompleta:hover {
     background-color: #ffd343;
     color: #ED6294;
     font-weight: bold;
 }
+
+
+button#badicionar:hover,
+#blistaCompleta:hover,
+button#badicionardaPrincipal:hover{
+    background-color: #ffd343;
+    color: #ED6294;
+    font-weight: bold;
+}
+
 button.criarReceitaProduto{
     background-color: #ffd343;
     width: 100%;
     padding: 8px;
     margin: 8px 0;
     border: none;
-
 }
 
 
-#imgbotaoadicionar{
+#imgbotaoadicionar,
+#imgbotaoadicionardaPrincipal{
   width: 10%;
   background-color: #ffd343;
   padding: 2px;
   border-radius: 100%;
   margin: 0 20px 0 0;
-
 }
 
+#imgbotaoadicionardaPrincipal{
+    margin-right: 25px;
+    margin-left: -15px;  
+}
 
 img.imagemdestaque{
-    width: 25%;
-   
+    width: 25%;  
 }
 
+/* LISTA CADASTRADA MATÉRIA-PRIMA */
 
+div#listaCompleta{
+    
+    width: 80%;
+    margin: auto;
+}
 
+iframe{
+    height: 48vh;
+    width: 100%;
+}
+
+img#imagemdeTitulo{
+    width: 30px;
+    padding-right: 15px;
+    margin: 0;
+}
+
+div#imgTitulo{
+    display: flex;
+    height: 100%;
+    margin-top: 25px;
+    padding: 0;
+}
+
+.titulodaListaCompleta{
+    font-size: 1.3em;
+    font-weight: 100;
+    color:  #000000;
+    font-weight: 500;  
+    display: flex;
+    justify-content: center;
+}

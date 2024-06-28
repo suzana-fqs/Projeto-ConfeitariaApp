@@ -17,19 +17,6 @@ function exibirOcultarLogin(){
 }
 
 
-/*
-let logar = document.getElementById("inome").value
-let senha = document.getElementById("isenha").value
-let mensagemdeErro = document.getElementById("iMsgErroaologar")
 
-function abrirPaginaPrincipal(){
-       
-        if ( logar === '' || senha === ''){
-                mensagemdeErro.textContent = 'Favor, preencha os campos.'
-        } else {
-                window.location.href = '/paginaprincipal.html'
-
-        }
-*/
                
        
