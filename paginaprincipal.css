@@ -168,9 +168,9 @@ button.criarReceitaProduto{
 
 
 #imgbotaoadicionar{
-  width: 8%;
+  width: 10%;
   background-color: #ffd343;
-  padding: 8px;
+  padding: 2px;
   border-radius: 100%;
   margin: 0 20px 0 0;
 
@@ -179,7 +179,7 @@ button.criarReceitaProduto{
 
 img.imagemdestaque{
     width: 25%;
-    margin:
+   
 }
 
 
