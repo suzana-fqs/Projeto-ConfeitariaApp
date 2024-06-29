@@ -21,7 +21,7 @@
 
 body{
     background-color: rgb(255, 255, 255);
-    background-image: url(/img/Bolo\ custo\ para\ confeitaria.jpg);
+    background-image: url(/img/bolo-confeitaria-doce-custo.jpg);
     background-repeat: no-repeat;
     background-size: 130% ;
     background-position: top center;
@@ -35,7 +35,6 @@ section{
     background-color: rgba(255, 255, 255, 0.682);
     height: 100vh;
     width: 100vw;
-  
 }
 
 div{
@@ -66,7 +65,8 @@ h2{
     padding: 5px 0 5px;
 }
 
-.letraspequenas, .letraspequenas:hover {
+.letraspequenas,
+.letraspequenas:hover {
     background-color: rgba(0, 0, 139, 0);
     color: #ED6294;
     font-weight: bold;
@@ -94,14 +94,16 @@ a{
     text-decoration: none;
 }
 
-button:hover, a:hover{
+button:hover,
+a:hover{
     background-color: #ED6294;
     transition: .5s;
     transform: scale(102%);
     letter-spacing: 4.5px;
 }
 
-.Logohome, .Logohome:hover{
+.Logohome,
+.Logohome:hover{
     background-color: #34abd600;
 }
 
@@ -126,7 +128,8 @@ img.login{
     padding: 10px;
 }
 
-#inome, #isenha{
+#inome,
+#isenha{
     background-color: #290d9a00;
     width: 95%;
     border: none;
@@ -135,8 +138,8 @@ img.login{
     border: solid 2px #ED6294;
 }
 
-/*  Página Cadastro */
 
+/*  Página Cadastro */
 #bcadastro{
     background-size: 120%;
     background-size: cover;
@@ -169,13 +172,10 @@ p.destaquecadastro{
     text-shadow: 1px 1px 15px  #ffffff;
 }
 
-
 img#logoheader{
   width: auto;
   height: 45px;
 } 
-
-
 
 form{
     margin: 0;
@@ -197,9 +197,7 @@ input.formulario{
 div#recuperarsenha{
     background-color: #ffffff;
     padding: 30px 20px 50px 20px;
-    box-shadow: 0px 0px 10px   #0000008e;
-    
-    
+    box-shadow: 0px 0px 10px   #0000008e;    
 }
 
 
