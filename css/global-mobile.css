@@ -46,55 +46,5 @@ div{
 }
 
 
-h1{
-    font-family: "Satisfy", cursive;
-    font-size: 3.5em;
-    font-weight: 100;
-    color:  #34abd6;
-    text-shadow: 1px 1px #000000;
-    padding: 5px 0 20px;
-}
 
-h2{
-    font-size: 1.9em;
-    font-weight: 500;
-    color:  #000000;
-    padding: 5px 0 5px;
-}
 
-.letraspequenas,
-.letraspequenas:hover {
-    background-color: rgba(0, 0, 139, 0);
-    color: #ED6294;
-    font-weight: bold;
-    text-decoration: underline;
-    font-size: .8em;
-    margin-top: -10px;
-}
-    
-button, a{
-    background-color: #FFD243;
-    border: none;
-    padding: 12px 80px;
-    margin: 20px 0 4px 0;
-    width: 100%;
-    font-weight: bolder;
-    font-size: 1em;
-    text-transform: uppercase;
-    letter-spacing: 1.5px;
-    box-sizing: border-box;
-}
-
-a{
-    display: block;
-    color:#000000;
-    text-decoration: none;
-}
-
-button:hover,
-a:hover{
-    background-color: #ED6294;
-    transition: .5s;
-    transform: scale(102%);
-    letter-spacing: 4.5px;
-}
