@@ -1,6 +1,0 @@
-var 
-
-
-function abrirPaginaPrincipal(){
-
-}
