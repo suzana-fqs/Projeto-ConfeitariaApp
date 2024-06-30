@@ -1,0 +1,57 @@
+@charset "utf-8"
+
+/*
+#34ACD6 azul
+#ED6294 rosa
+#FFD243 amarelo
+*/
+
+body{
+    margin: auto;
+}
+
+table{
+    position: relative;
+
+    border-collapse: separate;
+    width: 100%;
+
+}
+
+thead > tr > th{
+    position: sticky;
+    top: 0;
+    background-color: #34abd6;
+}
+
+th#iheaderTabelaMateriaPrima{
+    width: 45%;
+}
+
+tbody > tr:nth-child(2n) {
+    background-color: #34abd63a;
+}
+
+th, td{
+    text-align: center;
+    vertical-align: middle;
+
+}
+
+tr{
+    background-color: rgb(255, 255, 255);
+}
+
+button{
+    border: none;
+    background-color: #34abd600;
+    padding: 8px;
+   
+}
+
+button:hover{
+    background-color: #FFD243 ;
+    border-radius: 100%;
+
+}
+
