@@ -169,7 +169,6 @@ button.criarReceitaProduto{
     border: none;
 }
 
-
 #imgbotaoadicionar,
 #imgbotaoadicionardaPrincipal{
   width: 10%;
@@ -197,6 +196,8 @@ div#listaCompleta{
 }
 
 iframe{
+    
+    margin: 10px 0;
     height: 48vh;
     width: 100%;
 }
@@ -204,7 +205,10 @@ iframe{
 img#imagemdeTitulo{
     width: 30px;
     padding-right: 15px;
-    margin: 0;
+}
+
+#imgbotaoadicionardaPrincipal{
+    width: 23px;
 }
 
 div#imgTitulo{
@@ -222,6 +226,8 @@ div#imgTitulo{
     display: flex;
     justify-content: center;
 }
+
+
 
 
 

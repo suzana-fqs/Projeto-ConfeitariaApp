@@ -3,10 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/img/bolo-fatia-custo-de-producao.png" type="image/x-icon">
     <link rel="stylesheet" href="/css/pagina-principal.css">
     <link rel="stylesheet" href="css/global-mobile.css" media="screen">
     
 </head>
+
+
 <body>
            
         <header>
@@ -81,9 +84,9 @@
 
                     </datalist>
 
-                    <input class="por3" type="number" placeholder="Qtd" size="5" maxlength="5">
+                    <input class="por3" type="number" placeholder="Qtd" size="5" maxlength="5" id="iQtdMateriaPrima" name="nQtdMateriaPrima">
 
-                    <select class="por3" name="unidade" id="iunidade"   >
+                    <select class="por3" name="unidade" id="iunidade" id="iUnMateriaPrima" name="nUnMateriaPrima" >
             
                         <option value="L"> Kg</option>
                         <option value="kg">Lt</option>
@@ -91,10 +94,11 @@
                         <option value="Cx">Cx</option>
                      </select>
 
-                     <input class="por3" type="text" placeholder="0.000,00" size="10"
+                     <input class="por3" type="text" placeholder="0.000,00" size="10" id="iPrecoMateriaPrima" name="nPrecoMateriaPrima"
                     >
 
-                    <button id="badicionardaPrincipal" > <img id="imgbotaoadicionardaPrincipal" src="/img/adicionar-lista-doce-custo.png" alt="" >Cadastrar</button>  
+                    <button id="badicionardaPrincipal" class="bcadastrarPaginaMateriaPrima" 
+                    > <img id="imgbotaoadicionardaPrincipal" src="/img/adicionar-lista-doce-custo.png" alt="" >Cadastrar</button>  
                      
                 </form>
 
